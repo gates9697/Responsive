@@ -1,0 +1,149 @@
+     .navbar-light {
+      position: fixed;
+      z-index: 100;
+      width: 100%;
+      margin: 0 0 30px 0;
+      border-bottom: 3px solid black;
+      left: 0;
+      top: 0;
+      padding-bottom: 65px;
+    
+    }
+    
+    .navbar-nav {
+        float:right;
+        position: absolute;
+        right: 10px;
+        }
+    
+    .container { 
+        position: relative;
+        top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+    }
+    
+    .row.footer {
+        bottom: 0px;
+        position: relative;
+        top: 300px;
+        text-align:center;
+        padding: 5px;
+        background: black;
+        border-top: solid 5px orange;
+    }
+
+    .holder {
+      position: relative;
+      background-color: white(174, 154, 221, 0.329);
+      width: 100%;
+      min-height: 350px;
+      overflow:hidden;
+      }
+
+      #mainimg {
+      float: left;
+      border: 0px;
+      padding: 20px;
+      }
+
+      .row.pageis {
+      text-align: left;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-weight: 600;
+      border-bottom: solid 0px;
+      color:orange;
+      background: black(179, 179, 179);
+      border-bottom: solid 2px black;
+      }
+    
+    .navbar-brand{
+      float: left;
+      position: relative;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      font-weight: 700;
+      left: 90px;
+      top: 10px;
+      text-align: center;
+      text-decoration: none;
+      }
+    
+    #name {
+        color:black;
+        transition: color .5s;
+    }
+    
+    .navnavc{
+      position: relative;
+      font-weight: 700;
+      color:black;
+      top: 35px;
+    }
+    
+    .navnav {
+      transition: color .5s;
+      }
+   
+    .spacer{
+      width: 25px;
+    }
+    
+    .vertspacer {
+      height: 50px;
+    }
+    
+    #name {
+      background:orange;
+      color: white;
+      padding: 20px;
+      float: left;
+      position: absolute;
+      top: -20px;
+     
+    }
+    
+    .loading111 {
+      font-size: 24px;
+      font-weight: 900;
+    }
+    
+    .col-10.loading {
+      border: 2px black solid;
+    }
+    
+    
+    .card-title {
+      position: relative;
+      left: 0px;
+    }
+    
+    .card-img-top {
+      height:200px;
+      width:206px;
+    }
+    
+    .card-title{
+      height: 50px;
+    }
+    
+    .card-text {
+      max-height: 150px;
+      overflow: hidden;
+    }
+    
+    .btn.btn-primary.x {float:left;}
+    .btn.btn-danger.x {float:left;}
+    
+    .butbox{ 
+      width:200px;
+      position: relative;
+      left:-15px;}
+    
+    .card-img-top:hover {
+      transition: .5s ease;
+      opacity: 0.9;
+      filter: contrast(200%);
+      }
